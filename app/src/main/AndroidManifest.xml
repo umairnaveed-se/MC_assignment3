@@ -10,9 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MC_assignment3">
         <activity
+            android:name=".ExamActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LearnActivity"
+            android:exported="false" />
+        <activity
             android:name=".homeActivity"
             android:exported="false"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
