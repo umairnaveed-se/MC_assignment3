@@ -11,10 +11,12 @@
         android:theme="@style/Theme.MC_assignment3">
         <activity
             android:name=".ExamActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".LearnActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".homeActivity"
             android:exported="false"
