@@ -17,8 +17,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openRepo(View view){
-        Uri uri = Uri.parse("https://github.com/umairnaveed-se/MC_assignment3/tree/master"); // missing 'http://' will cause crashed
+        Uri uri = Uri.parse("https://github.com/umairnaveed-se/MC_assignment3/tree/master");
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        startActivity(intent);
+    }
+    public void openApp(View view){
+        Intent intent = new Intent(this, homeActivity.class);
         startActivity(intent);
     }
 }
