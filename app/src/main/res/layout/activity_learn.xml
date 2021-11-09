@@ -46,6 +46,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnCont"
-        app:layout_constraintVertical_bias="0.15"
-        app:srcCompat="@drawable/alpha1" />
+        app:srcCompat="@drawable/alphab1" />
 </androidx.constraintlayout.widget.ConstraintLayout>
