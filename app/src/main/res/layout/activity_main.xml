@@ -73,6 +73,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
         app:layout_constraintVertical_bias="0.027"
-        app:srcCompat="@drawable/commits" />
+        app:srcCompat="@drawable/commit" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

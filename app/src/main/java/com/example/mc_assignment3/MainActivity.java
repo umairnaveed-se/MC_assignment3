@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openRepo(View view){
-        Uri uri = Uri.parse("https://github.com/umairnaveed-se/MC_assignment3/tree/master");
+        Uri uri = Uri.parse("https://github.com/umairnaveed-se/MC_assignment3");
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
         startActivity(intent);
     }
