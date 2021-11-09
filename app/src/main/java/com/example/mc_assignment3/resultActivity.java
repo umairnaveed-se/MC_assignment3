@@ -14,6 +14,7 @@ public class resultActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_result);
         String value = getIntent().getExtras().getString("key");
+        String text = "You scored" + value + "!";
         TextView res = findViewById(R.id.textView6);
         res.setText(value);
     }
@@ -22,7 +23,15 @@ public class resultActivity extends AppCompatActivity {
         Intent intent = new Intent(this, homeActivity.class);
         startActivity(intent);
     }
-    pubic void share(View view){
+    public void share(View view){
+        String value = getIntent().getExtras().getString("key");
+        String shareText = "I scored " + value + " in Emission points!";
+        Intent sendIntent = new Intent();
+        sendIntent.setAction(Intent.ACTION_SEND);
+        sendIntent.putExtra(Intent.EXTRA_TEXT, shareText);
+        sendIntent.setType("text/plain");
 
+        Intent shareIntent = Intent.createChooser(sendIntent, null);
+        startActivity(shareIntent);
     }
 }

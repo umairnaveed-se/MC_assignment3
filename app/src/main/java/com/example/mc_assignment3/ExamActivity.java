@@ -64,7 +64,7 @@ public class ExamActivity extends AppCompatActivity {
                     count++;
                 }
             }
-            String res= "You scored " + Integer.toString(count)+"/5!";
+            String res= Integer.toString(count)+"/5";
             Intent intent = new Intent(this, resultActivity.class);
             intent.putExtra("key", res);
             startActivity(intent);
