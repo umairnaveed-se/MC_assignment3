@@ -4,10 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Uzair Chishti/Desktop/Notes/Semesters/7th sem/Mobile computing/MC_assignment3/app/src/main/res/drawable/btn_background.xml" value="0.240625" />
-        <entry key="..\:/Users/Uzair Chishti/Desktop/Notes/Semesters/7th sem/Mobile computing/MC_assignment3/app/src/main/res/layout/activity_exam.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Uzair Chishti/Desktop/Notes/Semesters/7th sem/Mobile computing/MC_assignment3/app/src/main/res/layout/activity_exam.xml" value="0.18" />
         <entry key="..\:/Users/Uzair Chishti/Desktop/Notes/Semesters/7th sem/Mobile computing/MC_assignment3/app/src/main/res/layout/activity_home.xml" value="0.33" />
         <entry key="..\:/Users/Uzair Chishti/Desktop/Notes/Semesters/7th sem/Mobile computing/MC_assignment3/app/src/main/res/layout/activity_learn.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/Uzair Chishti/Desktop/Notes/Semesters/7th sem/Mobile computing/MC_assignment3/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Uzair Chishti/Desktop/Notes/Semesters/7th sem/Mobile computing/MC_assignment3/app/src/main/res/layout/activity_result.xml" value="0.22447916666666667" />
       </map>
     </option>
   </component>
