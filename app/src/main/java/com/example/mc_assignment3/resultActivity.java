@@ -14,9 +14,9 @@ public class resultActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_result);
         String value = getIntent().getExtras().getString("key");
-        String text = "You scored" + value + "!";
+        String text = "You scored " + value + "!";
         TextView res = findViewById(R.id.textView6);
-        res.setText(value);
+        res.setText(text);
     }
 
     public void goHome(View view){
